@@ -20,9 +20,9 @@ function Profile() {
         dispatch(updateAge(age));
     }
    
-    // const updateStatus1 = (status) => {
-    //     dispatch(updateStatus(status));
-    // }
+    const updateStatus1 = (status) => {
+        dispatch(updateStatus(status));
+    }
 
      // const updateAge = (age) => {
     //     dispatch({
@@ -44,12 +44,12 @@ function Profile() {
     //     dispatch(changeName());
     // }
 
-    const updateStatus = (status) => {
-        dispatch({
-            type : 'UPDATE_STATUS',
-            payload : status
-        })
-    }
+    // const updateStatus = (status) => {
+    //     dispatch({
+    //         type : 'UPDATE_STATUS',
+    //         payload : status
+    //     })
+    // }
 
     // const updateStatus = (status) => {
     //     dispatch(updateStatus1(status))
